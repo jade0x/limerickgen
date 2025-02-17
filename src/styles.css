@@ -62,7 +62,7 @@ a {
 #generator {
   border-radius: 20px;
   background-color: #ebf5c6;
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
 }
 
 form {
@@ -97,9 +97,13 @@ form {
 .limerick {
   font-size: 2rem;
   background-color: #fcfee7;
-  padding: 20px 25px 0px 25px;
+  padding: 20px 25px;
   line-height: 2.5rem;
   border-left: 3px solid #174439;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+.hidden {
+  display: none;
 }
