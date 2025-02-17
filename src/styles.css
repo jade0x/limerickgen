@@ -44,6 +44,7 @@ h1 {
   font-size: 6rem;
   text-align: center;
 }
+
 a {
   color: #174439;
   background-color: #e8d9ff;
@@ -82,7 +83,7 @@ form {
 .limerick {
   font-size: 2rem;
   background-color: #fcfee7;
-  padding: 20px 25px;
+  padding: 20px 25px 0px 25px;
   line-height: 2.5rem;
   border-left: 3px solid #174439;
   border-radius: 15px;
