@@ -9,6 +9,82 @@ html {
 }
 
 body {
+  color: #174439;
   font-size: 1.6rem;
   font-family: Arial, sans-serif;
+  max-height: max-content;
+  background-color: #fdfbf7;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  padding: 40px 20px;
+}
+
+main {
+  margin-bottom: 30px;
+  margin: 0 30px;
+}
+
+footer {
+  color: #174439;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #def398;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 6rem;
+  text-align: center;
+}
+a {
+  color: #174439;
+  background-color: #e8d9ff;
+  text-decoration: none;
+}
+
+#generator {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ebf5c6;
+}
+
+.instructions {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.6rem;
+}
+
+.button {
+  color: #def398;
+  background-color: #174439;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.limerick {
+  font-size: 2rem;
+  background-color: #fcfee7;
+  padding: 20px 25px;
+  line-height: 2.5rem;
+  border-left: 3px solid #174439;
+  border-radius: 15px;
+  margin-top: 20px;
 }
