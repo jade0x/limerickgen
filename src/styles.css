@@ -101,6 +101,10 @@ form {
   border-left: 3px solid #174439;
   border-radius: 15px;
   margin-top: 40px;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .hidden {
