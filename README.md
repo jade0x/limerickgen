@@ -4,7 +4,7 @@ A fun web application that creates random limericks based on user input! This ge
 
 ## Live Demo
 
-🎪 [Try it here](#) (Coming soon!)
+🎪 [Try it here](https://limerickgenerator.netlify.app/?)
 
 ## Features
 
@@ -13,11 +13,7 @@ A fun web application that creates random limericks based on user input! This ge
   - Five lines
   - AABBA rhyme scheme
   - Classic limerick rhythm and meter
-- Responsive design for all devices
-
-## Under Development
-
-🚧 This project is currently under development. New features and improvements are being added regularly.
+  - Responsive design for all devices
 
 ## Technologies Used
 
