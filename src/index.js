@@ -1,5 +1,20 @@
+function createLoader() {
+  const loaderContainer = document.createElement("div");
+  loaderContainer.className = "loader-container";
+
+  const loadingText = document.createElement("div");
+  loadingText.className = "loading-text";
+  loadingText.innerHTML = 'Thinking<span class="dots"></span>';
+
+  loaderContainer.appendChild(loadingText);
+  return loaderContainer;
+}
+
 function displayLimerick(response) {
   console.log("limerick generated");
+
+  let limerickElement = document.querySelector("#limerick");
+  limerickElement.innerHTML = "";
 
   new Typewriter("#limerick", {
     delay: 50,
@@ -21,7 +36,9 @@ function generateLimerick(event) {
 
   let limerickElement = document.querySelector("#limerick");
   limerickElement.classList.remove("hidden");
-  limerickElement.innerHTML = "Thinking...";
+  limerickElement.innerHTML = "";
+  limerickElement.appendChild(createLoader());
+  //limerickElement.innerHTML = "Thinking...";
 
   console.log("Genearting Limerick");
   console.log(`Prompt: ${prompt}`);
