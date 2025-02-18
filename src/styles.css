@@ -88,9 +88,14 @@ form {
 }
 
 .hint {
-  padding: 5px 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 5px;
   font-size: 1rem;
   line-height: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .limerick {
